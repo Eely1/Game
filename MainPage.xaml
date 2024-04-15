@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Game.MainPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Entry">
+                <Setter Property="PlaceholderColor" Value="#7E7E7E" />
+                <Setter Property="BackgroundColor" Value="#F5F5F5" />
+                <Setter Property="HeightRequest" Value="40" />
+                <Setter Property="Margin" Value="0, 0, 0, 10" />
+                <Setter Property="FontSize" Value="Medium" />
+            </Style>
+            <Style TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#007BFF" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="HeightRequest" Value="40" />
+                <Setter Property="Margin" Value="0, 0, 0, 10" />
+                <Setter Property="FontAttributes" Value="Bold" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout Padding="20">
+
+        <Label Text="Сервис" TextColor="#007BFF" />
+        <Entry x:Name="serviceEntry" Placeholder="Введите сервис" TextColor="Black"/>
+
+        <Label Text="Логин" TextColor="#007BFF" />
+        <Entry x:Name="loginEntry" Placeholder="Введите логин" TextColor="Black"/>
+
+        <Label Text="Пароль" TextColor="#007BFF" />
+
+        <StackLayout Orientation="Horizontal">
+            <Entry x:Name="passwordEntry" Placeholder="Введите пароль" IsPassword="True" TextColor="Black"  WidthRequest="275" />
+            <ImageButton Source="eye.png" Clicked="ShowPassword_Clicked" HeightRequest="50" WidthRequest="40" Margin="0,0,0,0"/>
+        </StackLayout>
+
+        <Button Text="Сгенерировать пароль" Clicked="GeneratedButton_Clicked" 
+                BackgroundColor="LightGreen" />
+        <Button Text="Сохранить" Clicked="SaveButton_Clicked" />
+
+        <Label Text="Ваши пароли" TextColor="#007BFF" FontSize="Large" Margin="80, 0, 0, 10" />
+
+        <TableView x:Name="credentialsTable" Intent="Settings">
+            <TableRoot>
+                <TableSection x:Name="credentialsSection">
+                    <ViewCell>
+                        <Frame Margin="15, 10, 15, 10" BackgroundColor="#F5F5F5" CornerRadius="5">
+                            <StackLayout Spacing="5">
+                                <Label Text="{Binding Service}" FontAttributes="Bold" FontSize="16" TextColor="Black" />
+                                <Label Text="{Binding Login}" FontSize="14" TextColor="#007BFF" />
+
+                            </StackLayout>
+                        </Frame>
+                    </ViewCell>
+                </TableSection>
+            </TableRoot>
+        </TableView>
+    </StackLayout>
+</ContentPage>

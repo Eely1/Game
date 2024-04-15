@@ -1,0 +1,15 @@
+C:\Users\Admin\source\repos\Game\Game\Game\bin\Debug\netstandard2.0\Game.deps.json
+C:\Users\Admin\source\repos\Game\Game\Game\bin\Debug\netstandard2.0\Game.dll
+C:\Users\Admin\source\repos\Game\Game\Game\bin\Debug\netstandard2.0\ref\Game.dll
+C:\Users\Admin\source\repos\Game\Game\Game\bin\Debug\netstandard2.0\Game.pdb
+C:\Users\Admin\source\repos\Game\Game\Game\obj\Debug\netstandard2.0\Game.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\Game\Game\Game\obj\Debug\netstandard2.0\Game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\Game\Game\Game\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Admin\source\repos\Game\Game\Game\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Admin\source\repos\Game\Game\Game\obj\Debug\netstandard2.0\Game.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\Game\Game\Game\obj\Debug\netstandard2.0\Game.AssemblyInfo.cs
+C:\Users\Admin\source\repos\Game\Game\Game\obj\Debug\netstandard2.0\Game.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Game\Game\Game\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Admin\source\repos\Game\Game\Game\obj\Debug\netstandard2.0\Game.dll
+C:\Users\Admin\source\repos\Game\Game\Game\obj\Debug\netstandard2.0\refint\Game.dll
+C:\Users\Admin\source\repos\Game\Game\Game\obj\Debug\netstandard2.0\Game.pdb
